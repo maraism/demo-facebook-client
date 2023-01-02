@@ -1,4 +1,4 @@
-## Application ReactJs pour la partie Cliente
+## Application ReactJs pour la partie Client
 
 Cette application permet d'afficher les posts d'une page Facebook ainsi que leurs insights. 
 L'affichage set met à jour si un nouveau post est ajouté sur Facebook. 

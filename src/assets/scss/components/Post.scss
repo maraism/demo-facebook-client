@@ -1,0 +1,49 @@
+@import '../base/Colors.scss';
+
+.post {
+    padding: 20px;
+    border: 5px solid $secondary;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 20px;
+    }
+
+    .resume {
+        @media screen and (min-width: 768px) {
+            width: 250px;
+        }
+        @media screen and (min-width: 1024px) {
+            width: 400px;
+        }
+        picture {
+            display: block;
+            width: 100%;
+            aspect-ratio: 1;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .insights-container {
+        @media screen and (min-width: 768px) {
+            flex: 1;
+        }
+        h2{
+            color: $secondary;
+            font-size: 14px;
+        }
+
+        
+        .insight {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            span {
+                font-weight: 800;
+                color: $secondary;
+            }
+        }
+    }
+}

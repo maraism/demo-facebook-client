@@ -1,0 +1,11 @@
+@import '../base/Colors.scss';
+@import '../atoms/Select.scss';
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 5px solid $secondary;
+    font-weight: 600;
+}

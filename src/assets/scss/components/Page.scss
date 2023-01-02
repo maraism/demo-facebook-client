@@ -1,0 +1,28 @@
+#page {
+
+    h1 {
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .post-container {
+        display: flex;
+        gap: 30px;
+        padding: 0 30px 30px;
+        max-width: 1920px;
+        margin: auto;
+        @media screen and (max-width: 1919px) {
+            flex-direction: column;
+        }
+        @media screen and (min-width: 1920px) {
+            flex-wrap: wrap;
+        }
+
+        .post {
+            @media screen and (min-width: 1920px) {
+                width: calc(50% - 30px);
+            }
+        }
+    }
+}
